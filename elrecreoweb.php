@@ -3,11 +3,11 @@
 # HTTP="true"
 $hostname_elrecreoweb = "localhost";
 $database_elrecreoweb = "elrecqcg_informacion";
-$username_elrecreoweb = "elrecqcg_admin";
-$password_elrecreoweb = "7?0U4O7$9%^FvKzV";
+$username_elrecreoweb = "root";
+$password_elrecreoweb = "";
 
 
-//$elrecqcgWeb = mysql_pconnect($hostname_elrecreoweb, $username_elrecreoweb, $password_elrecreoweb) or trigger_error(mysql_error(),E_USER_ERROR); 
+//$elrecqcgWeb = mysql_pconnect($hostname_elrecreoweb, $username_elrecreoweb, $password_elrecreoweb) or trigger_error(mysql_error(),E_USER_ERROR);
 
 
 //mysql_connect("$hostname_elrecreoweb","$username_elrecreoweb","$password_elrecreoweb"); // se conecta con la db
@@ -19,8 +19,8 @@ $conn = mysqli_connect($hostname_elrecreoweb, $username_elrecreoweb, $password_e
 
 /*
 function cambiar_caracteres_especiales($s) {
-	
-		
+
+
 		$s = str_replace("á","a",$s);
 		$s = str_replace("Á","A",$s);
 		$s = str_replace("é","e",$s);
@@ -40,5 +40,3 @@ function cambiar_caracteres_especiales($s) {
 }
 */
 ?>
-
-
